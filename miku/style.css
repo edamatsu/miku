@@ -1,0 +1,419 @@
+.main_visual{
+    height: 100vh;
+    background-image: url('./image2.jpeg'); 
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+header{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 70px;
+}
+
+.main_list{
+    margin-left: 60px;
+    float: left;
+}
+
+.main_list:hover{
+    transform: translateY(-20px);
+    transition: all 1s;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(87, 53, 9);
+    font-family: 'Caveat', cursive;
+}
+
+.fas{
+    color: rgb(87, 53, 9);
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(87, 53, 9);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.main_title p,
+.main_title h1{
+    letter-spacing: 5px;
+    color: transparent;
+}
+
+.main_title{
+    background: -moz-linear-gradient(45deg, 90deg, rgb(87, 53, 9), rgb(216, 140, 25), rgb(87, 53, 9));
+    background: -webkit-linear-gradient(90deg, rgb(87, 53, 9), rgb(216, 140, 25), rgb(87, 53, 9));
+    background: -ms-linear-gradient(90deg, rgb(87, 53, 9), rgb(216, 140, 25), rgb(87, 53, 9));
+    background: linear-gradient(90deg, rgb(87, 53, 9), rgb(216, 140, 25), rgb(87, 53, 9));
+    background-clip: text;
+    -moz-background-clip: text;
+	-webkit-background-clip: text;
+    background-size: 200%;
+    animation: bggradient 5s linear 2 alternate-reverse both;
+}
+
+@keyframes bggradient{
+    0% {
+      background-position-x: 50%;
+    }
+    100% {
+      background-position-x: 100%;
+    }
+  }
+
+.maintitle_text{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+    color: rgb(87, 53, 9);
+    font-family: 'Caveat', cursive;
+}
+
+.bg_img{
+    background-image: url('./hailei.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile_title{
+    font-size: 70px;
+    color: rgb(138, 88, 13);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    /* margin-top: 60px; */
+    margin-bottom: 30px;
+    padding: 40px 0;
+}
+
+.img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-right: 180px;
+}
+
+.profile_text{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.profile_list{
+    color: rgb(87, 53, 9);
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.travel{
+    height: 80vh;
+}
+
+
+.travel_title{
+    font-size: 70px;
+    color: rgb(138, 88, 13);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    margin-top: 60px;
+    margin-bottom: 10px; 
+    padding: 20px;
+}
+
+.travel_photo{
+    height: 250px;
+    width: 360px;
+}
+
+.travel_text{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel_box{
+    padding: 40px 30px;
+    margin: 0 30px;
+}
+
+.travel_box h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+    color: rgb(87, 53, 9);
+}
+
+.travel_box p{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: rgb(87, 53, 9);
+    text-align: start;
+}
+
+.favorite_photo{
+    height: 180px;
+    width: 230px;
+}
+
+.button_position{
+    display: flex;
+    justify-content: end;
+    margin-right: 120px;
+}
+
+.button{
+        display: inline-block;
+        padding: 7px 20px;
+        text-decoration: none;
+        background: burlywood;
+        color: #FFF;
+        border-radius: 4px;
+        box-shadow: 0px 0px 0px 5px burlywood;
+        border: dashed 1px #FFF; 
+        transition-property: color;
+        transition-duration: 3s;
+        transition-timing-function: linear;
+        transition-delay: .3s;
+        /* animation: change_color 1s linear .5s 2 normal forwards; */
+}
+
+.button:hover {
+    color: brown;
+}
+
+/* @keyframes change_color {
+    from {
+        background-color: burlywood;
+    }
+    to{
+        background-color: rgb(231, 207, 175);
+    }
+} */
+
+/* .button:hover {
+    border: dotted 1px #FFF; */
+
+.icon ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_list{
+    color: rgb(150, 115, 66);
+    margin: 15px;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.last{
+    font-size: 50px;
+    color: rgb(138, 88, 13);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: rgb(95, 77, 52);
+    height: 6vh;
+}
+
+.footer_text{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    }
+
+#humburger{
+    display: none;
+    }
+
+
+@media screen and (max-width: 780px){
+
+    header{
+        width: 90%;
+        padding: 10px;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .travel_box{
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+   .travel_title{
+       font-size: 35px;
+   }
+
+    .travel_box p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .travel_photo{
+        height: 250px;
+        width: 300px;
+    }
+
+    h1{
+        font-size: 65px;
+        padding-top: 100px;
+    }
+
+    .profile_text{
+        flex-direction: column;
+    }
+
+    #profile{
+        font-size: 35px;
+    }
+
+    .profile_list{
+        font-size: 25px;
+    }
+
+    .img{
+        margin-bottom: 100px;
+        margin-right: 0;
+    }
+
+    .travel_text{
+        flex-direction: column;
+    }
+
+    .travel{
+        height: 250vh;
+    }
+
+    .last{
+        font-size: 35px;
+    }
+
+    .button_position{
+        justify-content: center;
+        margin-left: 120px;
+    }
+
+    /* ハンバーガー */
+    .humburger{
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    .humburger span,
+    .humburger span::after,
+    .humburger span::before{
+        width: 100%;
+        height: 5px;
+        display: block;
+        border-radius: 2px;
+        transition: all .5s ease;
+        background-color: rgb(87, 53, 9);
+    }
+
+    .humburger span{
+        position: relative;
+        top: calc(50% - 2px);
+    }
+
+    .humburger span::before,
+    .humburger span::after{
+        content: '';
+        position: absolute;
+    }
+
+    .humburger span::before{
+        top: -9px;
+    }
+
+    .humburger span::after{
+        top: 9px;
+    }
+
+    #humburger:checked + .humburger span{
+        background-color: transparent;
+    }
+
+    #humburger:checked + .humburger span::before{
+        transform: rotate(45deg) translate(5px,5px);
+    }
+
+    #humburger:checked + .humburger span::after{
+        transform: rotate(-45deg) translate(7px,-8px);
+    }
+
+    #humburger{
+        display: none;
+    }
+
+    .header_left{
+        position: fixed;
+        right: -200px;
+        transition: all .2s ease;
+        width: 30%;
+        top: 70px;
+        background-color: rgba(219, 213, 202, 0.89);
+        height: 300px;
+    }
+
+    .header_left li{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .header_left a{
+        font-size: 20px;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    #humburger:checked ~ .header_left{
+        right: 0;
+      }
+
+    .header_left ul{
+        display: block;
+    }
+
+    header{
+        position: fixed;
+        overflow: hidden;
+    }
+
+    #things{
+        font-size: 35px;
+    }
+
+    .travel_box h3{
+        font-size: 30px;
+    }
+}
+    
